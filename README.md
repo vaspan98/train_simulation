@@ -21,4 +21,4 @@ GCC (g++) compiler.
 Vasilis Panagakis
 
 ## Date
-30 December 2017
+December 2017
