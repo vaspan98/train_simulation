@@ -78,7 +78,7 @@ void Wagon::betweenStations(int fF, int rF) {
 	
 	for(int i = 0; i < get_maxCap(); i++)	{	//Repeat the proccess for each passenger
 		
-		if(pasArr[i] != NULL){
+		if(pasArr[i] != NULL) {
 		
 			if(ticketCheck == 1) {	//If ticket check is applied,//the passengers with these ticket statuses should get punished
 				
@@ -101,6 +101,7 @@ void Wagon::betweenStations(int fF, int rF) {
 			}
 
 			else		//If ticket check is applied,the passengers with these ticket statuses whould get punished, but they got away with it				
+				
 				if((pasArr[i]->get_hft() == 0 && pasArr[i]->get_hrt() == 0 && pasArr[i]->get_drt() == 0) || 
 					(pasArr[i]->get_hft() == 0 && pasArr[i]->get_hrt() == 0 && pasArr[i]->get_drt() == 1) || 
 					(pasArr[i]->get_hft() == 0 && pasArr[i]->get_hrt()==1 && pasArr[i]->get_drt() == 0)) {	
@@ -129,8 +130,8 @@ Wagon::~Wagon() {
 	for(int i = 0; i < maxCapacity; i++)
   		delete pasArr[i];
 
-   		delete[] pasArr;
-		delete[] penalty;
-	
-		cout << "A waggon was destroyed" << endl << endl;
+	delete[] pasArr;
+	delete[] penalty;
+
+	cout << "A waggon was destroyed" << endl << endl;
 }

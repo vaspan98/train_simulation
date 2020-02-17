@@ -73,7 +73,7 @@ Train::~Train() {
 	for(int i = 0; i < totalWagons; i++)
   		delete wag[i];
 		
-   		delete[] wag;
-   		
-		cout << "A metro train was destroyed" << endl;
+	delete[] wag;
+		
+	cout << "A metro train was destroyed" << endl;
 }

@@ -17,7 +17,7 @@ class Wagon {
 
   public:
 
-    Wagon(int maxCap = 0, int tC = 0, int nOP = 0, int pun = 0, int gAW = 0, int fF = 100, int rF = 50, Passenger** pasA = NULL, int* pen=0);
+    Wagon(int maxCap = 0, int tC = 0, int nOP = 0, int pun = 0, int gAW = 0, int fF = 100, int rF = 50, Passenger** pasA = NULL, int* pen = 0);
     ~Wagon();
 
     void inStation(int, int, int, int, int, int);

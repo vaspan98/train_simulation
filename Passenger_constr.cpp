@@ -2,10 +2,10 @@
 #include "Passenger_class.h"
 
 using namespace std;
-							//Passenger has a full ticket//has a reduced ticket//Passenger deserves a reduced ticket
-Passenger::Passenger(int f, int r , int d): hasFullT(f), hasReducedT(r), deservesReducedT(d)  {		//Constructor of the class								
+//Constructor of the class
+Passenger::Passenger(int f, int r , int d): hasFullT(f), hasReducedT(r), deservesReducedT(d) {	//Passenger has a full ticket//has a reduced ticket//Passenger deserves a reduced ticket						
 		
-		//cout << "A passenger was created" << endl;   
+	//cout << "A passenger was created" << endl;   
 }
 //Function to set the ticket status of a passenger
 void Passenger::set(int f, int r, int d) {		

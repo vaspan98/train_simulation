@@ -13,7 +13,7 @@ class Train {
 	
   public:
 
-    Train(int totalWag = 0, int tM = 0, int monC = 0, Wagon** w=NULL);
+    Train(int totalWag = 0, int tM = 0, int monC = 0, Wagon** w = NULL);
 	~Train();
 	
 	void set_activeStations(int);
