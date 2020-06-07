@@ -13,7 +13,7 @@ class Wagon {
     int fullFine;
     int reducedFine;
     Passenger** pasArr;
-	int* penalty;
+    int* penalty;
 
   public:
 
@@ -21,10 +21,10 @@ class Wagon {
     ~Wagon();
 
     void inStation(int, int, int, int, int, int);
-	void betweenStations(int,int);
-	int get_maxCap()const;
-	int get_passengers()const;
-	int get_money()const;
-	void printStatistics();
+    void betweenStations(int,int);
+    int get_maxCap()const;
+    int get_passengers()const;
+    int get_money()const;
+    void printStatistics();
 };
 #endif

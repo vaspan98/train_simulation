@@ -5,21 +5,21 @@
 
 class Train {
     
-	int tempM;
+    int tempM;
     int totalWagons;
     int moneyCollected;
     int numOfStations;
-	Wagon** wag;
+    Wagon** wag;
 	
   public:
 
     Train(int totalWag = 0, int tM = 0, int monC = 0, Wagon** w = NULL);
-	~Train();
+    ~Train();
 	
-	void set_activeStations(int);
-	void operate(int, int, int, int, int ,int, int, int, int, int*);
-	void set_tempMoney(int);
-	int get_activeStations()const;
-	int printStatistics(int&);
+    void set_activeStations(int);
+    void operate(int, int, int, int, int ,int, int, int, int, int*);
+    void set_tempMoney(int);
+    int get_activeStations()const;
+    int printStatistics(int&);
 };
 #endif
