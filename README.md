@@ -18,7 +18,7 @@ GCC (g++) compiler.
 `$ ./train_sim <Number of Stations> <Number of Waggons> <Maximum Number of People per Waggon>`
 
 ## Author
-Vasilis Panagakis
+Vassilis Panagakis
 
 ## Date
 December 2017
