@@ -19,6 +19,3 @@ GCC (g++) compiler.
 
 ## Author
 Vassilis Panagakis
-
-## Date
-December 2017
